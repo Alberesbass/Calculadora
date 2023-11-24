@@ -16,12 +16,12 @@ Nenhum pré-requisito específico é necessário para executar este projeto. Bas
 ## Como Usar
 
 1. Clone ou faça o download do repositório.
-
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
-1. Abra o arquivo index.html em um navegador web.
-2. Utilize os botões da calculadora para realizar operações matemáticas.
+2. Abra o arquivo index.html em um navegador web.
+3. Utilize os botões da calculadora para realizar operações matemáticas.
 
 Personalizações
 Você pode personalizar este projeto da seguinte maneira:
