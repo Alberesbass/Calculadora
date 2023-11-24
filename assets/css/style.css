@@ -1,0 +1,147 @@
+body {
+    font-size: 20px;
+    background-image: url("../img/fundo-amadeirado.jpg");
+}
+
+.calculator {
+    width: 387px;
+    height: 535px;
+    padding: 20px 20px 20px 23px;
+    margin: 10px 200px 10PX 550px;
+    border-style: ridge;
+    border-radius: 10px;
+    background-image: url("../img/plastico-claro.jpg");
+}
+
+.display {
+    width: 95.5%;
+    height: 72px;
+    background-color: #808080;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: inset;
+    font-size: 50px;
+}
+
+#fonteTela {
+    width: 98.6%;
+    height: 93%;
+    background-image: radial-gradient(#ffffff, #3ae283);
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 35px;
+    font-family: 'press start 2p';
+}
+
+.calculatorButtons {
+    position: flex;
+}
+
+#buttonStyle {
+    height: 85px;
+    width: 85px;
+    font-size: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px #999999;
+}
+
+#buttonStyle:hover {
+    background-color: #dadfc8
+}
+
+/*mudando cor dos botões*/
+
+#buttonStyle:active {
+    /*botões apertando*/
+    background-color: #dfe4cc;
+    box-shadow: 0 2px #666666;
+    transform: translateY(4px);
+}
+
+#buttonAc {
+    /*botão AC*/
+    height: 85px;
+    width: 85px;
+    font-size: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: #ff0000d8;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px #999999;
+}
+
+#buttonAc:hover {
+    background-color: #db2020
+}
+
+/*mudando cor do botão AC*/
+
+#buttonAc:active {
+    /*botao AC apertando*/
+    background-color: #d64949;
+    box-shadow: 0 2px #666666;
+    transform: translateY(4px);
+}
+
+#buttonZero {
+    /*botão Zero*/
+    height: 85px;
+    width: 183px;
+    font-size: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px #999999;
+}
+
+#buttonZero:hover {
+    background-color: #e8ecd8
+}
+
+/*mudando cor do botão zero*/
+
+#buttonZero:active {
+    /*botao zero apertando*/
+    background-color: #dfe4cc;
+    box-shadow: 0 2px #666666;
+    transform: translateY(4px);
+}
+
+#buttonIgual {
+    /*botão igual*/
+    height: 85px;
+    width: 183px;
+    font-size: 50px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: #0f990f;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px #999999;
+}
+
+#buttonIgual:hover {
+    background-color: #3d9740
+}
+
+/*mudando cor do botão igual*/
+
+#buttonIgual:active {
+    /*botao igual apertando*/
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666666;
+    transform: translateY(4px);
+}
+
+.line {
+    width: 100%;
+    height: 20%;
+}
