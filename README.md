@@ -2,6 +2,8 @@
 
 Este é um projeto de calculadora simples desenvolvido usando HTML, CSS e JavaScript.
 
+<img src="./calculadora.gif" alt="gif da tela do projeto">
+
 ## Funcionalidades
 
 - Adição, subtração, multiplicação e divisão.
